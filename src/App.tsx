@@ -3,13 +3,16 @@ import logo from './logo.svg';
 import './App.css';
 import ComponentImports from './Components/ComponentImports';
 import ImportAdvanceProps from './Components/AdvanceProps/ImportAdvanceProps';
+import ImportEventProps from './Components/EventProps/ImportEventProps';
 
 function App() {
   return (
     <div className="App">
       {/* <ComponentImports /> */}
 
-      <ImportAdvanceProps />
+      {/* <ImportAdvanceProps /> */}
+
+      <ImportEventProps />
     </div>
   );
 }
