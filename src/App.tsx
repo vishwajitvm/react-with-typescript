@@ -4,6 +4,7 @@ import './App.css';
 import ComponentImports from './Components/ComponentImports';
 import ImportAdvanceProps from './Components/AdvanceProps/ImportAdvanceProps';
 import ImportEventProps from './Components/EventProps/ImportEventProps';
+import ImportCreateTask from './Components/TaskFormPractice/ImportCreateTask';
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
 
       {/* <ImportAdvanceProps /> */}
 
-      <ImportEventProps />
+      {/* <ImportEventProps /> */}
+
+      <ImportCreateTask />
     </div>
   );
 }
