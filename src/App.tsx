@@ -6,6 +6,7 @@ import ImportAdvanceProps from './Components/AdvanceProps/ImportAdvanceProps';
 import ImportEventProps from './Components/EventProps/ImportEventProps';
 import ImportCreateTask from './Components/TaskFormPractice/ImportCreateTask';
 import ImportStyleProps from './Components/StyleProps/ImportStyleProps';
+import UseStateComponents from './Components/STATE/UseStateComponents';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
 
       {/* <ImportCreateTask /> */}
 
-      <ImportStyleProps />
+      {/* <ImportStyleProps /> */}
+
+      <UseStateComponents />
     </div>
   );
 }
