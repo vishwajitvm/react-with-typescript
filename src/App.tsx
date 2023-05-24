@@ -7,6 +7,7 @@ import ImportEventProps from './Components/EventProps/ImportEventProps';
 import ImportCreateTask from './Components/TaskFormPractice/ImportCreateTask';
 import ImportStyleProps from './Components/StyleProps/ImportStyleProps';
 import UseStateComponents from './Components/STATE/UseStateComponents';
+import ImportUseReducerHook from './Components/USEREDUCER_HOOKS/ImportUseReducerHook';
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
 
       {/* <ImportStyleProps /> */}
 
-      <UseStateComponents />
+      {/* <UseStateComponents /> */}
+
+      <ImportUseReducerHook />
     </div>
   );
 }
